@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>待办事项</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/swiper.css">
+</head>
+<body>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">Slide 1</div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
+        </div>
+        <!-- 如果需要导航按钮 -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+    </div>
+    <div class="type">
+        <div class="project active">未完成</div>
+        <div class="done ">已完成</div>
+    </div>
+    <div class="content">
+        <ul class="itemlist" >
+            <li>
+            </li>
+        </ul>
+    </div>
+    <div class="add">新增</div>
+    <div class="mask">
+        <div class="inputarea">
+            <textarea name="" id="text" ></textarea>
+            <div class="submit">提交</div>
+            <div class="update">修改</div>
+            <div class="cancel">X</div>
+        </div>
+    </div>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/swiper.js"></script>
+<script src="js/jquery.transit.js"></script>
+<!--在jQuery之后-->
+<script src="js/iscroll.js"></script>
+<script src="js/hammer.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
